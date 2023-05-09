@@ -50,6 +50,7 @@
             // saleChangeBttn
             // 
             this.saleChangeBttn.BackColor = System.Drawing.Color.AliceBlue;
+            this.saleChangeBttn.Enabled = false;
             this.saleChangeBttn.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold);
             this.saleChangeBttn.Location = new System.Drawing.Point(12, 145);
             this.saleChangeBttn.Name = "saleChangeBttn";
@@ -80,6 +81,7 @@
             this.scrapChangeBttn.TabIndex = 28;
             this.scrapChangeBttn.Text = "Промяна на бракуване";
             this.scrapChangeBttn.UseVisualStyleBackColor = false;
+            this.scrapChangeBttn.Click += new System.EventHandler(this.scrapChangeBttn_Click);
             // 
             // Changing
             // 

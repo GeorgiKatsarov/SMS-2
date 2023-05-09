@@ -156,6 +156,12 @@
       <DependentUpon>RemoveProduct.cs</DependentUpon>
     </Compile>
     <Compile Include="Scrapping.cs" />
+    <Compile Include="ScrappingChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScrappingChange.Designer.cs">
+      <DependentUpon>ScrappingChange.cs</DependentUpon>
+    </Compile>
     <Compile Include="Settings.cs" />
     <EmbeddedResource Include="AddCashier.resx">
       <DependentUpon>AddCashier.cs</DependentUpon>
@@ -207,6 +213,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RemoveProduct.resx">
       <DependentUpon>RemoveProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScrappingChange.resx">
+      <DependentUpon>ScrappingChange.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\DataSources\Delivery.datasource" />
     <None Include="Properties\DataSources\Scrapping.datasource" />

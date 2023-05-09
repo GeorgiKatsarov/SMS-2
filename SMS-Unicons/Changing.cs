@@ -29,5 +29,11 @@ namespace SMS_Unicons
             DeliveryChange deliveryChange = new DeliveryChange();
             deliveryChange.Show();
         }
+
+        private void scrapChangeBttn_Click(object sender, EventArgs e)
+        {
+            ScrappingChange scrappingChange = new ScrappingChange();
+            scrappingChange.Show(); 
+        }
     }
 }
