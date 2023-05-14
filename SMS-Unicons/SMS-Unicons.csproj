@@ -155,6 +155,12 @@
     <Compile Include="RemoveProduct.Designer.cs">
       <DependentUpon>RemoveProduct.cs</DependentUpon>
     </Compile>
+    <Compile Include="SaleChanging.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleChanging.Designer.cs">
+      <DependentUpon>SaleChanging.cs</DependentUpon>
+    </Compile>
     <Compile Include="Scrapping.cs" />
     <Compile Include="ScrappingChange.cs">
       <SubType>Form</SubType>
@@ -213,6 +219,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RemoveProduct.resx">
       <DependentUpon>RemoveProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleChanging.resx">
+      <DependentUpon>SaleChanging.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ScrappingChange.resx">
       <DependentUpon>ScrappingChange.cs</DependentUpon>

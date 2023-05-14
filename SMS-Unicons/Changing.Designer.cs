@@ -50,7 +50,6 @@
             // saleChangeBttn
             // 
             this.saleChangeBttn.BackColor = System.Drawing.Color.AliceBlue;
-            this.saleChangeBttn.Enabled = false;
             this.saleChangeBttn.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold);
             this.saleChangeBttn.Location = new System.Drawing.Point(12, 145);
             this.saleChangeBttn.Name = "saleChangeBttn";
@@ -58,6 +57,7 @@
             this.saleChangeBttn.TabIndex = 26;
             this.saleChangeBttn.Text = "Промяна на продажби";
             this.saleChangeBttn.UseVisualStyleBackColor = false;
+            this.saleChangeBttn.Click += new System.EventHandler(this.saleChangeBttn_Click);
             // 
             // deliveryChangeBttn
             // 

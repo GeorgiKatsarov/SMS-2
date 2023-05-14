@@ -120,3 +120,4 @@ C:\Users\Georgi\Desktop\bank\SMS-2\SMS-Unicons\obj\Debug\SMS-Unicons.csproj.Core
 C:\Users\Georgi\Desktop\bank\SMS-2\SMS-Unicons\obj\Debug\SMS-Unicons.csproj.CopyComplete
 C:\Users\Georgi\Desktop\bank\SMS-2\SMS-Unicons\obj\Debug\SMS-Unicons.exe
 C:\Users\Georgi\Desktop\bank\SMS-2\SMS-Unicons\obj\Debug\SMS-Unicons.pdb
+C:\Users\Georgi\Desktop\bank\SMS-2\SMS-Unicons\obj\Debug\SMS_Unicons.SaleChanging.resources

@@ -35,5 +35,11 @@ namespace SMS_Unicons
             ScrappingChange scrappingChange = new ScrappingChange();
             scrappingChange.Show(); 
         }
+
+        private void saleChangeBttn_Click(object sender, EventArgs e)
+        {
+            SaleChanging saleChanging = new SaleChanging();
+            saleChanging.Show();
+        }
     }
 }
