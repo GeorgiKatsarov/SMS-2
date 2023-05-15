@@ -75,6 +75,8 @@ namespace SMS_Unicons
                     db2 = new Database();
                     db2.RunQuery($"INSERT INTO scrappedproducts(idScrapping, idProduct, quantity) VALUES ({id},{item.IdProduct},{item.Quantity})");
                 }
+                int id1 = db2.GetId($"select id from scrapping where numberOfProducts = {scrappings1.Count} order by time desc limit 1");
+                sb.AppendLine($"Номер на бракуване - {id1}");
                 MessageBox.Show($"{sb.ToString()}", "Успешно въведенo бракуване");
                 if (printPreviewDialog1.ShowDialog() == DialogResult.OK)
                 {
